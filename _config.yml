@@ -11,7 +11,7 @@ baseurl: ""  # Leave this empty for GitHub Pages
 markdown: kramdown
 
 # Permalinks
-permalink: /:title/
+permalink: "/:title/" # Use this for individual pages, not for case studies
 relative_permalinks: true
 
 # Jekyll theme
