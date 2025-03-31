@@ -1,0 +1,43 @@
+# Details 
+title: "Charlie - Product Designer"
+description: "Experienced Product Designer with 12+ years in UX/UI design, leading creative teams and crafting digital product solutions."
+author: "Charlie"
+
+# URL
+url: "https://caitkin.github.io"
+baseurl: ""  # Leave this empty for GitHub Pages
+
+# Markdown processor
+markdown: kramdown
+
+# Permalinks
+permalink: /:title/
+relative_permalinks: true
+
+# Jekyll theme
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Include/Exclude files
+exclude:
+  - README.md
+  - LICENSE.md
+
+# Google Analytics
+google_analytics: G-ME8GZNBGFQ
+
+# Navigation
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Work"
+    url: "/work/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Footer
+footer:
+  text: "© {{ site.author }} {{ 'now' | date: '%Y' }}. Opinions expressed are solely my own and do not express the views or opinions of my employer."
