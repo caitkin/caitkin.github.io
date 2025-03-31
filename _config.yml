@@ -12,7 +12,7 @@ markdown: kramdown
 
 # Permalinks
 permalink: "/:title/" # Use this for individual pages, not for case studies
-relative_permalinks: true
+relative_permalinks: false
 
 # Jekyll theme
 remote_theme: pages-themes/cayman@v0.2.0
